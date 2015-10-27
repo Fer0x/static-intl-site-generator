@@ -1,0 +1,28 @@
+{
+  "name": "static-intl-site-generator",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fer0x/static-intl-site-generator.git"
+  },
+  "author": "Victor Havrylin <fer0x.feo@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "connect": "^3.4.0",
+    "debounce": "^1.0.0",
+    "del": "^2.0.2",
+    "handlebars": "^4.0.3",
+    "handlebars-intl": "^1.1.1",
+    "intl": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0",
+    "node-watch": "^0.3.4",
+    "serve-static": "^1.10.0"
+  }
+}
